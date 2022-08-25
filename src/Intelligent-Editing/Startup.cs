@@ -38,7 +38,6 @@ namespace Intelligent_Editing
 
             if(!env.IsDevelopment())
             {
-                app.UseExceptionHandler("/Upload/Error");
                 app.UseHsts();
             }
 
